@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RAMSavingConv2d"
+description = "Save input context to CPU or disk to mitigate ram consumption when loading huge images to conv2d."
+authors = [
+    {name = "Takumi Ando", email="takumi.ando826@gmail.com"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+]
+dependencies = []
+dynamic = ["version"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.dynamic]
+version = {attr = "rsconv.__version__"}
+
+[tools.flake8]
+max-line-length = 120
