@@ -1,6 +1,6 @@
 # RAMSavingConv2d
 
-A PyTorch implementation of RAMSavingConv2d in the paper "Save GPU RAM Usage in Convolutional Layers to Load Huge Whole Slide Images" (preprint) .
+A PyTorch implementation of RAMSavingConv2d in the paper "Save GPU RAM Usage in Convolutional Layers to Load Huge Whole Slide Images".
 preprint: https://www.biorxiv.org/content/10.1101/2023.09.19.558533v1
 
 # Installation
